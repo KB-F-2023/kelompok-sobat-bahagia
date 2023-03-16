@@ -165,8 +165,8 @@ class Node():
                 current_node.print_path()
                 
                 print ('Time performance:',str(queue_num_nodes_popped),'nodes popped off the queue.')
-                print ('Space performance:', str(queue_max_length),'nodes in the queue at its max.')
-                print ('Time spent: %0.2fs' % (time.time()-start))
+                # print ('Space performance:', str(queue_max_length),'nodes in the queue at its max.')
+                # print ('Time spent: %0.2fs' % (time.time()-start))
                 return True
             
             else:     
@@ -260,8 +260,8 @@ class Node():
                 current_node.print_path()
                 
                 print ('Time performance:',str(queue_num_nodes_popped),'nodes popped off the queue.')
-                print ('Space performance:', str(queue_max_length),'nodes in the queue at its max.')
-                print ('Time spent: %0.2fs' % (time.time()-start))
+                # print ('Space performance:', str(queue_max_length),'nodes in the queue at its max.')
+                # print ('Time spent: %0.2fs' % (time.time()-start))
                 return True
             
             else:     
